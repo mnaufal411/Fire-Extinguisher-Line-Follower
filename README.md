@@ -91,7 +91,7 @@ Messages are sent **only when the detection state changes**
 #### Subscriber: ESP32 Robot
 The ESP32 subscribes to the `robot/fire` topic and continuously listens for incoming messages.
 
-- `ADA_API` → Robot stops navigation and activates the fan
+- `ADA_API` → Robot heading towards the fire and activates the fan if line sensor detected allWhite and Fire sensor detect fire
 - `TIDAK_ADA_API` → Robot resumes normal navigation or returns to base
 
 This decoupled architecture allows independent development of the vision system and the robot controller.
