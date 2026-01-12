@@ -21,6 +21,8 @@ This project was developed as a **final project for a Robotics course**, focusin
 ## System Architecture
 The system consists of two main components:
 
+![System Topology](docs/System Topology.png)
+
 1. **Fire Detection Unit (PC / Laptop)**
    - Camera-based fire detection using Python and OpenCV
    - Publishes fire status (`ADA_API` / `TIDAK_ADA_API`) to an MQTT broker
@@ -41,6 +43,8 @@ The system consists of two main components:
 - DC Motors and Wheels
 - Acrylic Chassis
 - 2 x 18650 Battery
+
+![Wiring Diagram](docs/wiring.png)
 
 ---
 
