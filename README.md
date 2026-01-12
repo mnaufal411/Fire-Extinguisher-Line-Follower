@@ -21,7 +21,7 @@ This project was developed as a **final project for a Robotics course**, focusin
 ## System Architecture
 The system consists of two main components:
 
-![System Topology](docs/System Topology.png)
+![System Topology](docs/System_Topology.png)
 
 1. **Fire Detection Unit (PC / Laptop)**
    - Camera-based fire detection using Python and OpenCV
